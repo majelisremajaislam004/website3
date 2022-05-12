@@ -57,7 +57,7 @@ export default {
   methods: {
     async ambildata() {
       const { data, error } = await this.$supabase
-      .from('')
+      .from('struks2')
       .select()
       if(data)
       this.his = data
